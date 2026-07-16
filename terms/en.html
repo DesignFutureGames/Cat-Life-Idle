@@ -1,1 +1,656 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cat Life : Idle Terms of Service</title>
+  <meta name="description" content="Cat Life : Idle Terms of Service" />
 
+  <style>
+    :root{
+      --bg:#f4f4f5;
+      --card:#ffffff;
+      --text:#111827;
+      --muted:#6b7280;
+      --line:#d1d5db;
+      --blue:#2563eb;
+      --blue-soft:#eff6ff;
+      --shadow:0 10px 30px rgba(0,0,0,.08);
+      --radius:18px;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    html,
+    body{
+      margin:0;
+      padding:0;
+    }
+
+    body{
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.72;
+    }
+
+    a{
+      color:var(--blue);
+      text-decoration:none;
+    }
+
+    a:hover{
+      text-decoration:underline;
+    }
+
+    .wrap{
+      max-width:980px;
+      margin:0 auto;
+      padding:32px 20px 64px;
+    }
+
+    .card{
+      background:var(--card);
+      border:1px solid #e5e7eb;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+
+    .hero{
+      padding:34px 28px 18px;
+      border-bottom:1px solid #eef0f3;
+      background:linear-gradient(180deg, #ffffff 0%, #fbfbfc 100%);
+    }
+
+    .title{
+      margin:0 0 10px;
+      font-size:clamp(28px, 4vw, 54px);
+      line-height:1.12;
+      font-weight:800;
+      letter-spacing:-0.03em;
+      word-break:keep-all;
+    }
+
+    .meta{
+      margin-bottom:18px;
+      color:var(--muted);
+      font-size:15px;
+    }
+
+    .lang-tabs{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+
+    .lang-tabs a{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:88px;
+      padding:11px 16px;
+      border:1px solid var(--line);
+      border-radius:12px;
+      background:#fff;
+      color:var(--blue);
+      font-size:16px;
+      font-weight:700;
+      text-decoration:none;
+      transition:all .15s ease;
+    }
+
+    .lang-tabs a:hover{
+      background:#f9fafb;
+      border-color:#c4cbd4;
+      transform:translateY(-1px);
+    }
+
+    .lang-tabs a.active{
+      background:var(--blue-soft);
+      border-color:#93c5fd;
+      color:#1d4ed8;
+      box-shadow:inset 0 0 0 1px rgba(37,99,235,.06);
+    }
+
+    .content{
+      padding:26px 28px 34px;
+    }
+
+    h2{
+      margin:28px 0 10px;
+      font-size:24px;
+      line-height:1.35;
+      letter-spacing:-0.02em;
+    }
+
+    p{
+      margin:10px 0 0;
+      font-size:16px;
+    }
+
+    ul{
+      margin:10px 0 0 20px;
+      padding:0;
+    }
+
+    li{
+      margin:6px 0;
+      font-size:16px;
+    }
+
+    .note{
+      margin-top:16px;
+      padding:14px 16px;
+      border:1px solid #e5e7eb;
+      border-radius:14px;
+      background:#fafafa;
+      color:#374151;
+      font-size:15px;
+    }
+
+    .footer{
+      margin-top:28px;
+      padding-top:18px;
+      border-top:1px solid #eef0f3;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .small{
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    @media (max-width:640px){
+      .wrap{
+        padding:18px 12px 44px;
+      }
+
+      .hero{
+        padding:24px 18px 16px;
+      }
+
+      .content{
+        padding:20px 18px 26px;
+      }
+
+      .lang-tabs a{
+        min-width:auto;
+        padding:10px 14px;
+        font-size:15px;
+      }
+
+      h2{
+        font-size:21px;
+      }
+
+      p,
+      li{
+        font-size:15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <main class="card">
+      <section class="hero">
+        <h1 class="title">Cat Life : Idle Terms of Service</h1>
+
+        <div class="meta">
+          Effective date: 2026-08-15 · Version: 2026-08-15
+        </div>
+
+        <nav class="lang-tabs" aria-label="Language selection">
+          <a href="./ko.html" lang="ko">한국어</a>
+          <a class="active" href="./en.html" lang="en" aria-current="page">English</a>
+          <a href="./ja.html" lang="ja">日本語</a>
+        </nav>
+      </section>
+
+      <section class="content">
+        <p>
+          These Terms of Service govern the use of the mobile game
+          <strong>Cat Life : Idle</strong> (hereinafter referred to as the “Service”)
+          provided by Design Future Games (hereinafter referred to as the “Developer”)
+          and set forth the rights, obligations, responsibilities, and other necessary matters
+          between the user and the Developer.
+        </p>
+
+        <div class="note">
+          For more information regarding the processing of personal information, please review the
+          <a href="../privacy/en.html">Privacy Policy</a>.
+        </div>
+
+        <h2>Article 1. Application and Acceptance</h2>
+
+        <p>
+          By downloading, installing, accessing, launching, or using the Service,
+          or by purchasing any product within the Service, the user is deemed to have agreed
+          to all provisions of these Terms.
+        </p>
+
+        <p>
+          If the user does not agree to these Terms, the user must discontinue installation,
+          use, and payment activities and delete the application.
+        </p>
+
+        <p>
+          The user understands that the Service is a digital content service provided
+          on an “as is” and “as available” basis and is highly dependent on network conditions,
+          device environments, operating systems, Google Play, Google Play Games,
+          Google Play Billing, Google AdMob, and other third-party platforms and services.
+          The user expressly agrees that the Developer’s liability is limited to the maximum extent
+          permitted by applicable law.
+        </p>
+
+        <h2>Article 2. Definitions</h2>
+
+        <ul>
+          <li>
+            “User” means any person who uses the Service in accordance with these Terms.
+          </li>
+
+          <li>
+            “Integrated Services” means Google Play Games, Google Play Billing,
+            Google AdMob, and any third-party services, SDKs, platforms, or networks
+            related to the provision of the Service.
+          </li>
+
+          <li>
+            “In-App Products” means digital products, features, advertising removal products,
+            subscription products, or other paid content available for purchase within the Service
+            through Google Play Billing.
+          </li>
+
+          <li>
+            “Content” means all elements contained within the Service, including game information,
+            images, text, sounds, rankings, records, paid products, advertisements,
+            and all other related elements.
+          </li>
+        </ul>
+
+        <h2>Article 3. Description of the Service</h2>
+
+        <p>
+          The Service is a game service available on mobile devices.
+          The Developer may include the following features in all or part of the Service.
+        </p>
+
+        <ul>
+          <li>Google Play Games sign-in</li>
+          <li>Advertisements provided through Google AdMob</li>
+          <li>In-app purchases processed through Google Play Billing</li>
+          <li>Other gameplay, record, setting, presentation, and operational features</li>
+        </ul>
+
+        <h2>Article 4. Google Play Games Sign-In</h2>
+
+        <p>
+          Google Play Games sign-in may be provided as an optional feature.
+          When the user uses this feature, Google’s policies, terms, account status,
+          authentication methods, and platform restrictions may also apply.
+        </p>
+
+        <p>
+          The Developer is not responsible for any problems caused by Google Play Games,
+          including service failures, policy changes, sign-in failures, account restrictions,
+          feature reductions, or discontinuation.
+        </p>
+
+        <h2>Article 5. In-App Purchases and Refunds</h2>
+
+        <p>
+          Payments for In-App Products are generally processed exclusively through
+          Google Play Billing.
+        </p>
+
+        <p>
+          The price, currency, taxes, approval or rejection of payment, withdrawal,
+          refund, cancellation, subscription cancellation, purchase history,
+          purchase status, payment restrictions, and all other payment-related matters
+          are governed by the policies and procedures of Google Play and the relevant
+          payment method provider.
+        </p>
+
+        <p>
+          Refund requests must generally be submitted directly by the user through
+          the official procedures provided by Google Play.
+          The Developer does not provide separate direct refunds, cash reimbursements,
+          individual payment cancellations, or discretionary compensation outside
+          the Google Play process.
+        </p>
+
+        <p>
+          The Developer does not directly collect or store payment method information,
+          credit card information, billing information, or other payment details.
+          Except for limited verification of whether a purchase has been applied
+          or can be technically restored, the Developer does not determine payment approval,
+          refund approval, refund timing, refund amount, or refund eligibility.
+        </p>
+
+        <p>
+          Non-consumable products or active subscription products may be restored
+          depending on the same Google Account, store status, purchase status,
+          and platform policies. Consumable products may not be restored after they
+          have been used or granted.
+        </p>
+
+        <p>
+          However, if applicable laws or platform policies impose a direct obligation
+          on the Developer, the Developer will comply with such laws and policies
+          only to the extent required.
+        </p>
+
+        <h2>Article 6. Advertising and Third-Party Services</h2>
+
+        <p>
+          The Service may include advertisements provided through Google AdMob
+          and other third-party service elements.
+        </p>
+
+        <p>
+          The availability, frequency, format, personalization, and reward availability
+          of advertisements may vary depending on the user’s country, device environment,
+          network status, settings, consent status, advertising network conditions,
+          and platform policies.
+        </p>
+
+        <p>
+          To the maximum extent permitted by law, the Developer is not responsible
+          for third-party advertisements, external links, advertising networks,
+          platform failures, unavailable advertisements, advertisement loading failures,
+          missing rewards for viewed advertisements, advertisement content,
+          or errors or interruptions involving third-party services.
+        </p>
+
+        <h2>Article 7. Data Storage and Processing</h2>
+
+        <p>
+          The Developer does not operate the Service on the assumption that users’
+          personal information will be continuously stored in a proprietary membership database
+          or on the Developer’s own servers.
+        </p>
+
+        <p>
+          During use of the Service, certain game progress information, settings,
+          or temporary data may be stored locally on the user’s device.
+        </p>
+
+        <p>
+          Integrated Services such as Google Play Games, Google Play Billing,
+          and Google AdMob may process relevant information according to their own policies
+          and technical requirements. Further information is governed by the applicable
+          third-party policies and the Developer’s Privacy Policy.
+        </p>
+
+        <p>
+          The Service is generally not designed to request separate sensitive permissions.
+          However, notices or consent procedures may be displayed when required by
+          the operating system, app store, Integrated Services, or applicable laws.
+        </p>
+
+        <h2>Article 8. User Obligations and Prohibited Conduct</h2>
+
+        <p>
+          Users must not engage in any of the following conduct.
+        </p>
+
+        <ul>
+          <li>
+            Manipulating game results through abnormal methods such as macros, hacking,
+            memory modification, exploitation of bugs, or use of automated tools
+          </li>
+
+          <li>
+            Fraudulently manipulating rankings, records, rewards, payments,
+            advertisement displays, or reward systems
+          </li>
+
+          <li>
+            Reverse engineering, decompiling, modifying, illegally copying,
+            or distributing the application without authorization
+          </li>
+
+          <li>
+            Abusing payment cancellations, making fraudulent payments,
+            abusing refund procedures, or circumventing platform policies
+          </li>
+
+          <li>
+            Violating applicable laws, public order and morals, platform policies,
+            or these Terms
+          </li>
+        </ul>
+
+        <h2>Article 9. Intellectual Property Rights</h2>
+
+        <p>
+          Copyrights, trademarks, design rights, database rights,
+          and all other intellectual property rights relating to the Service and Content
+          belong to the Developer or the applicable lawful rights holder.
+        </p>
+
+        <p>
+          Without the Developer’s prior written consent, users may not copy, modify,
+          distribute, sell, rent, transmit, publicly communicate, create derivative works from,
+          reverse engineer, or commercially exploit the Service or Content.
+        </p>
+
+        <h2>Article 10. Modification, Suspension, and Termination of the Service</h2>
+
+        <p>
+          The Developer may modify, revise, restrict, suspend, terminate, delete,
+          or restructure all or part of the Service at any time due to operational,
+          technical, security, legal, or policy-related requirements.
+        </p>
+
+        <p>
+          As part of this process, game rules, difficulty, balance, user interface,
+          presentation, advertising methods, In-App Product composition, leaderboards,
+          sign-in features, saved-data compatibility, events, reward systems,
+          or other Content may be modified or deleted.
+        </p>
+
+        <p>
+          The Developer will make reasonable efforts to provide advance notice where possible.
+          However, changes may be made without advance notice in cases involving urgent
+          security responses, bug fixes, compliance with third-party platform policies,
+          service failure responses, or other unavoidable circumstances.
+        </p>
+
+        <p>
+          The user acknowledges and agrees in advance that all or part of the Service
+          may be modified, restricted, suspended, or terminated.
+          Unless otherwise restricted by applicable law, the Developer is not responsible
+          for lost expected profits, data changes, loss of progress,
+          or inability to use features resulting from such actions.
+        </p>
+
+        <h2>Article 11. Disclaimer of Warranties</h2>
+
+        <p>
+          The Service is provided on an “as is” and “as available” basis.
+        </p>
+
+        <p>
+          The Developer makes no express or implied warranty that the Service will always
+          be complete, uninterrupted, error-free, suitable for a particular purpose,
+          meet the user’s expectations, guarantee any particular result,
+          or operate identically on every device.
+        </p>
+
+        <p>
+          The Developer does not warrant against problems caused by network conditions,
+          telecommunications providers, operating system updates, device manufacturer environments,
+          account status, platform policy changes, advertising network conditions,
+          or changes, delays, or interruptions involving Google Play
+          or other third-party services.
+        </p>
+
+        <h2>Article 12. Limitation of Liability</h2>
+
+        <p>
+          To the maximum extent permitted by law, the Developer is not liable for
+          indirect, special, consequential, incidental, or punitive damages,
+          loss of data, loss of revenue, loss of opportunity, loss of expected profits,
+          business losses, or emotional damages arising from the use of
+          or inability to use the Service.
+        </p>
+
+        <p>
+          In particular, to the maximum extent permitted by law,
+          the Developer is not responsible for damage arising from any of the following.
+        </p>
+
+        <ul>
+          <li>
+            Causes attributable to the user, loss of the device, inadequate account management,
+            failure to manage passwords, or user negligence
+          </li>
+
+          <li>
+            Network failures, telecommunications provider issues, operating system errors,
+            device manufacturer issues, or device performance limitations
+          </li>
+
+          <li>
+            Failures, policy changes, payment failures, refund processing,
+            account restrictions, or feature discontinuation involving Google Play,
+            Google Play Games, Google Play Billing, Google AdMob,
+            or other third-party platforms
+          </li>
+
+          <li>
+            Loss of data caused by application deletion, device changes,
+            account mismatches, local data resets, reinstallation,
+            cache deletion, or user actions
+          </li>
+
+          <li>
+            Natural disasters, power outages, hacking, malware,
+            denial-of-service attacks, government actions,
+            or other events of force majeure
+          </li>
+        </ul>
+
+        <p>
+          To the maximum extent permitted by law, the Developer’s total aggregate liability
+          is limited to the amount actually paid by the user in connection with the Service
+          during the three months immediately preceding the event giving rise to the claim.
+          If the user made no paid purchase during that period, the maximum monetary liability
+          will be KRW 0, except for liabilities that cannot legally be limited or excluded.
+        </p>
+
+        <p>
+          This Article does not apply to damage caused by the Developer’s intentional misconduct
+          or gross negligence, or to liabilities that cannot be limited or excluded
+          under applicable law.
+        </p>
+
+        <h2>Article 13. Restrictions and Enforcement Measures</h2>
+
+        <p>
+          If the Developer reasonably determines that a user has violated,
+          or is likely to violate, these Terms, applicable laws,
+          or platform policies, the Developer may restrict the user’s access
+          to the Service without prior notice.
+        </p>
+
+        <p>
+          Where necessary, the Developer may restrict sign-in features,
+          reset records, exclude the user from rankings, restrict advertisement rewards,
+          restrict In-App Product features, delete some or all data,
+          block the account, or suspend use of the Service.
+        </p>
+
+        <p>
+          Unless otherwise restricted by applicable law, the Developer is not obligated
+          to provide separate compensation, refunds, or damages to the user
+          in connection with these measures.
+        </p>
+
+        <h2>Article 14. User Indemnification</h2>
+
+        <p>
+          If complaints, claims, disputes, investigations, damage, expenses,
+          or liability arise against the Developer due to the user’s violation of laws,
+          violation of these Terms, infringement of third-party rights,
+          fraudulent payment, abuse of refund procedures, account theft,
+          abnormal use, or other causes attributable to the user,
+          the user must resolve such matters at the user’s own responsibility and expense.
+        </p>
+
+        <p>
+          In such cases, the user must compensate the Developer for direct damage,
+          indirect damage, response costs, reasonable legal fees,
+          and all other related expenses incurred by the Developer.
+        </p>
+
+        <h2>Article 15. Use by Minors</h2>
+
+        <p>
+          Minors must obtain the consent of a parent or legal guardian
+          before using the Service or making payments.
+        </p>
+
+        <p>
+          If a minor makes a payment without the consent of a parent or legal guardian,
+          the availability of cancellation or refund may be determined in accordance
+          with applicable laws and platform policies.
+          The procedure will generally follow Google Play policies and procedures.
+        </p>
+
+        <h2>Article 16. Governing Law and Jurisdiction</h2>
+
+        <p>
+          These Terms are governed by and construed in accordance with
+          the laws of the Republic of Korea.
+        </p>
+
+        <p>
+          In the event of a dispute relating to the Service,
+          the parties will first attempt to resolve the matter through good-faith discussions.
+        </p>
+
+        <p>
+          Any dispute that cannot be resolved through discussion will,
+          to the extent permitted by applicable law, be subject to the exclusive jurisdiction
+          of the Seoul Central District Court of the Republic of Korea as the court of first instance.
+          However, if mandatory jurisdiction is prescribed by applicable law,
+          such mandatory jurisdiction will apply.
+        </p>
+
+        <h2>Article 17. Contact Information</h2>
+
+        <p>Developer: Design Future Games</p>
+
+        <p>
+          Email:
+          <a href="mailto:designfuturegames.cs@gmail.com">
+            designfuturegames.cs@gmail.com
+          </a>
+        </p>
+
+        <div class="footer">
+          <div>© Design Future Games. All rights reserved.</div>
+
+          <div class="small">
+            This page is the English Terms of Service page for Cat Life : Idle.
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
