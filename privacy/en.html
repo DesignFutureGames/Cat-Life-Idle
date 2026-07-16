@@ -1,1 +1,452 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cat Life : Idle プライバシーポリシー</title>
+  <meta name="description" content="Cat Life : Idle プライバシーポリシー" />
 
+  <style>
+    :root{
+      --bg:#f4f4f5;
+      --card:#ffffff;
+      --text:#111827;
+      --muted:#6b7280;
+      --line:#d1d5db;
+      --blue:#2563eb;
+      --blue-soft:#eff6ff;
+      --shadow:0 10px 30px rgba(0,0,0,.08);
+      --radius:18px;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    html,
+    body{
+      margin:0;
+      padding:0;
+    }
+
+    body{
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        "Noto Sans JP",
+        "Hiragino Kaku Gothic ProN",
+        "Yu Gothic",
+        Meiryo,
+        Arial,
+        sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.72;
+    }
+
+    a{
+      color:var(--blue);
+      text-decoration:none;
+    }
+
+    a:hover{
+      text-decoration:underline;
+    }
+
+    .wrap{
+      max-width:980px;
+      margin:0 auto;
+      padding:32px 20px 64px;
+    }
+
+    .card{
+      background:var(--card);
+      border:1px solid #e5e7eb;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+
+    .hero{
+      padding:34px 28px 18px;
+      border-bottom:1px solid #eef0f3;
+      background:linear-gradient(180deg, #ffffff 0%, #fbfbfc 100%);
+    }
+
+    .title{
+      margin:0 0 10px;
+      font-size:clamp(28px, 4vw, 54px);
+      line-height:1.12;
+      font-weight:800;
+      letter-spacing:-0.03em;
+      word-break:keep-all;
+    }
+
+    .meta{
+      margin-bottom:18px;
+      color:var(--muted);
+      font-size:15px;
+    }
+
+    .lang-tabs{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+
+    .lang-tabs a{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:88px;
+      padding:11px 16px;
+      border:1px solid var(--line);
+      border-radius:12px;
+      background:#fff;
+      color:var(--blue);
+      font-size:16px;
+      font-weight:700;
+      text-decoration:none;
+      transition:all .15s ease;
+    }
+
+    .lang-tabs a:hover{
+      background:#f9fafb;
+      border-color:#c4cbd4;
+      transform:translateY(-1px);
+    }
+
+    .lang-tabs a.active{
+      background:var(--blue-soft);
+      border-color:#93c5fd;
+      color:#1d4ed8;
+      box-shadow:inset 0 0 0 1px rgba(37,99,235,.06);
+    }
+
+    .content{
+      padding:26px 28px 34px;
+    }
+
+    h2{
+      margin:28px 0 10px;
+      font-size:24px;
+      line-height:1.35;
+      letter-spacing:-0.02em;
+    }
+
+    p{
+      margin:10px 0 0;
+      font-size:16px;
+      word-break:normal;
+    }
+
+    ul{
+      margin:10px 0 0 20px;
+      padding:0;
+    }
+
+    li{
+      margin:6px 0;
+      font-size:16px;
+    }
+
+    .note{
+      margin-top:16px;
+      padding:14px 16px;
+      border:1px solid #e5e7eb;
+      border-radius:14px;
+      background:#fafafa;
+      color:#374151;
+      font-size:15px;
+    }
+
+    .footer{
+      margin-top:28px;
+      padding-top:18px;
+      border-top:1px solid #eef0f3;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .small{
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    @media (max-width:640px){
+      .wrap{
+        padding:18px 12px 44px;
+      }
+
+      .hero{
+        padding:24px 18px 16px;
+      }
+
+      .content{
+        padding:20px 18px 26px;
+      }
+
+      .lang-tabs a{
+        min-width:auto;
+        padding:10px 14px;
+        font-size:15px;
+      }
+
+      h2{
+        font-size:21px;
+      }
+
+      p,
+      li{
+        font-size:15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <main class="card">
+      <section class="hero">
+        <h1 class="title">Cat Life : Idle プライバシーポリシー</h1>
+
+        <div class="meta">
+          施行日：2026-08-15 · バージョン：2026-08-15
+        </div>
+
+        <nav class="lang-tabs" aria-label="言語選択">
+          <a href="./ko.html" lang="ko">한국어</a>
+          <a href="./en.html" lang="en">English</a>
+          <a class="active" href="./ja.html" lang="ja" aria-current="page">日本語</a>
+        </nav>
+      </section>
+
+      <section class="content">
+        <p>
+          Design Future Games（以下「開発者」といいます）は、モバイルゲーム
+          <strong>Cat Life : Idle</strong>（以下「本サービス」といいます）を提供するにあたり、
+          利用者の情報を重要なものとして取り扱い、関連法令およびGoogle Playのポリシーに基づき、
+          本プライバシーポリシーを公開します。
+        </p>
+
+        <div class="note">
+          本サービスの利用条件については、
+          <a href="../terms/ja.html">利用規約</a>をご確認ください。
+        </div>
+
+        <h2>1. 開発者情報およびお問い合わせ先</h2>
+
+        <p>開発者名：Design Future Games</p>
+
+        <p>
+          メールアドレス：
+          <a href="mailto:designfuturegames.cs@gmail.com">
+            designfuturegames.cs@gmail.com
+          </a>
+        </p>
+
+        <h2>2. 収集・処理する情報</h2>
+
+        <p>
+          開発者は、独自の会員登録システムまたは独自の会員データベースを運営しておらず、
+          利用者の個人情報を開発者のサーバーに常時保存する仕組みを前提としていません。
+          ただし、本サービスの利用過程において、以下の情報が処理される場合があります。
+        </p>
+
+        <ul>
+          <li>
+            <strong>端末内に保存される情報：</strong>
+            ゲームの進行情報、設定値、一時データ、その他端末内に保存されるデータ
+          </li>
+
+          <li>
+            <strong>Google Play Gamesへのログインを利用する場合：</strong>
+            プレイヤー識別情報、ログイン状態、実績、リーダーボード記録、
+            ゲーム利用記録に関連する情報
+          </li>
+
+          <li>
+            <strong>Google Play Billingを利用する場合：</strong>
+            購入の有無、購入状態、購入商品の復元確認に必要な取引関連情報
+          </li>
+
+          <li>
+            <strong>Google AdMobを利用する場合：</strong>
+            広告配信、広告効果測定、不正利用防止などに必要な端末識別子、
+            広告識別子、IPアドレス、利用者の操作情報、診断情報など
+          </li>
+
+          <li>
+            <strong>Firebase Analyticsを利用する場合：</strong>
+            アプリの利用状況、イベント記録、利用傾向、端末およびアプリ環境情報、
+            分析用識別情報
+          </li>
+
+          <li>
+            <strong>Firebase Crashlyticsを利用する場合：</strong>
+            アプリのクラッシュ情報、エラーログ、クラッシュ発生時の端末状態、
+            OS情報、アプリバージョン、安定性分析に必要な診断情報
+          </li>
+        </ul>
+
+        <p>
+          上記情報の多くは、開発者が利用者から直接入力を受ける方式ではなく、
+          Google Play Games、Google Play Billing、Google AdMob、
+          Firebase Analytics、Firebase Crashlyticsなどの外部サービスおよびSDKを通じて、
+          自動的に処理される場合があります。
+        </p>
+
+        <h2>3. 情報の利用目的</h2>
+
+        <p>
+          開発者は、本サービスの提供および運営のため、以下の目的の範囲内で情報を処理する場合があります。
+        </p>
+
+        <ul>
+          <li>ゲームの実行、設定の保存、進行状態の維持など、基本機能の提供</li>
+          <li>Google Play Gamesへのログイン、実績およびリーダーボード機能の提供</li>
+          <li>Google Play Billingによるアプリ内購入処理および購入商品の復元確認</li>
+          <li>広告の配信、広告効果の測定および広告に関する不正利用の防止</li>
+          <li>利用傾向の分析、コンテンツおよび機能の改善、サービス運営の最適化</li>
+          <li>アプリのクラッシュ、エラー、異常終了および性能低下に関する問題の分析と対応</li>
+          <li>不正利用、悪用および異常な行為の検知と防止</li>
+        </ul>
+
+        <h2>4. 情報の保存期間</h2>
+
+        <p>
+          開発者は独自サーバーを利用した会員データベースを運営していないため、
+          開発者が個人情報を独自に長期間保存することは、原則としてありません。
+        </p>
+
+        <ul>
+          <li>
+            <strong>端末内に保存されたデータ：</strong>
+            アプリの削除、アプリデータの初期化、端末の変更、
+            または利用者による直接削除により消去される場合があります。
+          </li>
+
+          <li>
+            <strong>
+              Google Play Games、Google Play Billing、Google AdMob、
+              Firebaseに関連する情報：
+            </strong>
+            各サービス提供者のポリシー、技術的構造、アカウントの状態および
+            関連法令により、保存期間が異なる場合があります。
+          </li>
+
+          <li>
+            <strong>お問い合わせメール：</strong>
+            利用者からのお問い合わせへの対応および紛争処理に必要な範囲で、
+            合理的な期間保存される場合があります。
+          </li>
+        </ul>
+
+        <h2>5. 外部サービスの利用および情報処理</h2>
+
+        <p>
+          本サービスは、以下の外部サービスを利用する場合があります。
+          各サービスは、それぞれのポリシーおよび技術上の必要性に基づき、
+          関連情報を処理する場合があります。
+        </p>
+
+        <ul>
+          <li>Google Play Games</li>
+          <li>Google Play Billing</li>
+          <li>Google AdMob</li>
+          <li>Firebase Analytics</li>
+          <li>Firebase Crashlytics</li>
+        </ul>
+
+        <p>
+          開発者は利用者の情報を販売せず、開発者自身が利用者の個人情報を
+          任意に第三者へ提供することを目的としていません。
+          ただし、本サービスの提供に必要な上記外部サービスおよびSDKを通じて、
+          情報が処理される場合があります。
+        </p>
+
+        <h2>6. 権限の要求および端末内保存</h2>
+
+        <p>
+          本サービスは、原則として特別な機密権限を要求することを前提としていません。
+          ただし、OS、アプリストア、広告、ログイン、決済機能または関連法令により、
+          必要な案内や同意画面が表示される場合があります。
+        </p>
+
+        <p>
+          ゲームの進行状態、設定値および一部の一時データは、
+          利用者の端末内に保存される場合があります。
+          これらの情報は、アプリの削除またはデータの初期化に伴い削除される場合があります。
+        </p>
+
+        <h2>7. 利用者の権利および行使方法</h2>
+
+        <p>
+          利用者は、自身の情報に関して、以下の方法による管理または対応を行うことができます。
+        </p>
+
+        <ul>
+          <li>アプリの削除またはアプリデータの初期化による端末内データの削除</li>
+          <li>Google Play GamesまたはGoogleアカウント設定による関連ゲームデータの管理</li>
+          <li>AndroidまたはGoogleの設定による広告のパーソナライズおよび広告識別子の管理</li>
+          <li>開発者のメールアドレスを通じたお問い合わせおよび要請</li>
+        </ul>
+
+        <p>
+          ただし、Google Play Games、Google Play Billing、Google AdMob、
+          Firebase Analytics、Firebase Crashlyticsを通じて処理される情報は、
+          各サービス提供者のシステムおよびポリシーに基づいて管理される場合があります。
+          そのため、一部の要請については、該当するサービス提供者の手続きに従う必要があります。
+        </p>
+
+        <h2>8. 子どもおよび未成年者に関するご案内</h2>
+
+        <p>
+          未成年者は、法定代理人の同意または管理のもとで本サービスを利用する必要があります。
+          Googleアカウント、Google Play Games、決済設定および広告設定など、
+          外部プラットフォームに関する事項は、利用者および保護者の責任において管理してください。
+        </p>
+
+        <h2>9. 情報の安全管理措置</h2>
+
+        <p>
+          開発者は、合理的な範囲内で、本サービスの安定した運営および情報保護のために、
+          必要な管理上および技術上の措置を検討します。
+          また、Google Play Games、Google Play Billing、Google AdMob、
+          Firebase Analytics、Firebase Crashlyticsなどの外部サービスは、
+          それぞれのセキュリティポリシーおよび技術的な保護措置に基づき、
+          関連情報を処理する場合があります。
+        </p>
+
+        <h2>10. 本ポリシーの変更</h2>
+
+        <p>
+          本プライバシーポリシーは、関連法令、本サービスの機能、
+          使用するSDK、プラットフォームポリシーまたは運営方法の変更に応じて、
+          改定される場合があります。
+        </p>
+
+        <p>
+          重要な変更がある場合は、ウェブページの更新、アプリ内のお知らせ、
+          またはその他の合理的な方法により案内する場合があります。
+        </p>
+
+        <h2>11. 施行日</h2>
+
+        <p>
+          本プライバシーポリシーは、2026年8月15日から適用されます。
+        </p>
+
+        <div class="footer">
+          <div>© Design Future Games. All rights reserved.</div>
+          <div class="small">
+            このページは、Cat Life : Idleの日本語版プライバシーポリシーページです。
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
